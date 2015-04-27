@@ -73,5 +73,5 @@ npm -v
 
 #Run gulp. 
     Gulp
-
+Gulp command on terminal will start watching all files stored under src/js/*.js files and list any errors encountered
 
