@@ -77,7 +77,7 @@ Gulp command on terminal will start watching all files stored under src/js/*.js 
 <pre>CTRL + C</pre> to stop watching
 
 
-#New project installation
+#New Project Installation
 cd into new project.
 Run
     <pre>npm install</pre>
