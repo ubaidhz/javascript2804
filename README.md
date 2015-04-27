@@ -74,14 +74,14 @@ npm -v
 #Run gulp. 
     Gulp
 Gulp command on terminal will start watching all files stored under src/js/*.js files and list any errors encountered
-CTRL + C to stop watching
+<pre>CTRL + C to stop watching
 
 #New project installation
 cd into new project.
 Run
-    npm install
+    <pre>npm install
 That will install all dependencies listed in package.json file
-    gulp
+    <pre>gulp
 Will start gulp and watch files
 
 #Dependencies for this project
