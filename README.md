@@ -5,22 +5,21 @@ April, 28, 2015
 Gulp is a Node.js package, therefore we need to install Node.js. Node.js is dependent on Ruby, before we install Node.js we must install Ruby. Mac OS comes with Ruby preinstalled in this case update to the latest version of Ruby.
 
 
-Update Ruby
-
-Update Ruby:
+#Update Ruby
 
 gem update --system
-Install Node
+
+#Install Node
 
     Install Node.js, select the ‘Install’ button it will download a package, open it and follow the installation instructions.
+    
     To check to see if Node.js has installed correctly.
-
 node -v
 
     And also check NPM has installed, this comes bundled with Node.js.
 
 npm -v
-Install Gulp
+
 
     Create a project, (don’t use the same name as the gulp packages we’re going to install).
 
@@ -32,17 +31,25 @@ Install Gulp
     npm init
     Details in npm init will be converted to package.json within project folder
     Fill out the details asked as best you can. 
-
+#Install Gulp
+    
     Install Gulp globally. npm install -g gulp
 
-    Check version. gulp -v
+    Check version. 
+    gulp -v
 
-    Install gulp in your current project directory and save dependency to package.json file. npm install gulp --save-dev
+    Install gulp in your current project directory and save dependency to package.json file. 
+    
+    npm install gulp --save-dev
+    
+#Install gulp-jshint.
 
-    Install gulp-jshint. npm install gulp-jshint --save-dev
+    npm install gulp-jshint --save-dev
 
     Add a gulpfile.js with Javascript configured according to file path and tasks for Gulp to perform.
     In this case we add lint and watch task. 
+    
+    
     // Include Gulp
      var gulp = require('gulp');
 
@@ -64,6 +71,7 @@ Install Gulp
      // Default task
      gulp.task('default',['lint','watch']);
 
-    Run gulp. Gulp
+#Run gulp. 
+    Gulp
 
 
