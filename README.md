@@ -74,8 +74,8 @@ npm -v
 #Run gulp. 
     Gulp
 Gulp command on terminal will start watching all files stored under src/js/*.js files and list any errors encountered
-<pre>CTRL + C</pre> to stop watching
-
+    <pre>CTRL + C</pre> 
+    to stop watching
 
 #New Project Installation
 cd into new project.
